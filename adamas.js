@@ -1,7 +1,7 @@
 /* Adam Asmaca  */
 /* 6 Kasım 2015 */
 
-var kelimeler = new Array('kütüphane','koleksiyon','veri tabanı','açık erişim','otomasyon','issn','isbn','açık ders malzemeleri');
+var kelimeler = new Array('ankara','istanbul','kayseri','konya','izmir','sinop','samsun','edirne');
 var kelimeSayisi = kelimeler.length;
 var secilenKelimeNo = Math.floor(Math.random() * kelimeSayisi);
 var secilenKelime = kelimeler[secilenKelimeNo];
