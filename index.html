@@ -1,43 +1,41 @@
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>:::Adam Asmaca:::</title>
-        <script src="adamAs.js"></script>
-    </head>
-     <style>
-    
-            body { 
-                background-image:url(arkaplan.jpg);
-                
-    background-color: #cccccc;
-            }
-   
-    </style>
-    <body>
-        <center>
-        <h1 style="color: darkblue">:::Adam Asmaca:::</h1>
-       
-             <img src="adamas1png.png"/>
-             <img src="adamas2png.png"/>
-             <img src="adamas3png.png"/>
-             <img src="adamas4png.png"/>
-        <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script>
-        <p id="harfTutucuGoster"></p>
-        <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script>
-        <p>
-            <form id="frm1">
-                <input type="text" name="girilenHarf" maxlength="1" autofocus/>
-            </form>
-            <button onclick="myFunction()">Harfi Sorgula </button>
-            <script>
-                function myFunction() {
-                var x = document.getElementById("frm1");
-                harfKontrol(x.elements[0].value);
-                x.elements[0].value = null;
-                x.elements[0].focus();
-                }          
-            </script>
-        </p>
-        </center>
-    </body>
-</html>
+ /><html> 
+     <head> 
+         <meta charset="utf-8"/> 
+         <title>Adam Asmaca</title> 
+         <script src="adamas.js"></script> 
+     </head> 
+      <style> 
+      
+             body {  
+                 background-image:url(arkaplan.jpg); 
+     background-color: #cccccc; 
+             } 
+     
+     </style> 
+     <body> 
+         <center> 
+         <h1 style="color: Darkblue">Adam Asmaca</h1> 
+         
+        <img id='adam' style="width: 70%"> </img>
+         <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script> 
+         <p id="harfTutucuGoster"></p> 
+         <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script> 
+         <p>
+             <div id="klavye">
+             <form id="frm1"> 
+                 <input type="text" name="girilenHarf" maxlength="1" autofocus/> 
+             </form> 
+             <button onclick="myFunction()">Harfi Sorgula</button>
+    </div>
+             <script> 
+                 function myFunction() { 
+                 var x = document.getElementById("frm1"); 
+                 harfKontrol(x.elements[0].value); 
+                 x.elements[0].value = null; 
+                 x.elements[0].focus(); 
+                 }           
+             </script> 
+         </p> 
+         </center> 
+     </body> 
+ </html> 
